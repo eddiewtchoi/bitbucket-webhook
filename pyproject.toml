@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bitbucket-webhook"
+version = "0.1.2"
+description = "bitbucket jenkins webhook"
+authors = ["Eddie W T CHOI"]
+readme = "README.md"
+packages = [{include = "bitbucket-webhook"}]
+include = ["config/**"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

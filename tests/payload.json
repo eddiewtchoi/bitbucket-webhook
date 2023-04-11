@@ -1,0 +1,12 @@
+{
+        "push": {
+            "changes": [
+                {
+                    "new": {
+                        "name": "feature-123",
+                        "type": "branch"
+                    }
+                }
+            ]
+        }
+    }
